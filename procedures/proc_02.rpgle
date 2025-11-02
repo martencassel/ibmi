@@ -1,0 +1,10 @@
+**FREE
+
+CTL-OPT OPTION(*SRCSTMT);
+DCL-PI *N;
+   name CHAR(10) CONST;
+END-PI;
+
+DSPLY ('Hello ' + name);
+
+RETURN;
